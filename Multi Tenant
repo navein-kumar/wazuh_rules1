@@ -10,7 +10,7 @@ This is the configuration you need:
 
 <agent_config>
 	<labels>
-		<label key="server-A">server-A</label>
+		<label key="codesec">codesec</label>
 	</labels>
 </agent_config>
 
@@ -36,7 +36,7 @@ the Document level security that is below:
         },
         {
           "match_phrase": {
-            "agent.labels.server-A": "server-A"
+            "agent.labels.codesec": "codesec"
           }
         }        
       ],
