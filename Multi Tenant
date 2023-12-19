@@ -73,10 +73,10 @@ Click on
 Create Policy:
 
 
-Give it a name, and configure it to give read access permissions to the Agent group
+Give it a name -->  action: agent:read --> add  -->  resolurces  --> Agent group   --> identifier --> groupname ---> allow
 
 
-Go to Roles and create a new role that contains the created policy
+Go to Roles --> create a new role --> choose above policy name --> contains the above created policy
 
 
-Go to Roles Mapping and map the created role to the user you need to have access
+Go to Roles Mapping ---> and map the created role  --> select role --> select user --> to the user you need to have access
