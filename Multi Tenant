@@ -22,7 +22,9 @@ Management >> Security:
 And then create a role (in my example it is read_server_A) with indices_all, read and kibana_all_read as Cluster permissions:
 
 
-And read Index permissions for wazuh* indices, with the Document level security that is below:
+And read Index permissions for wazuh* indices, with read permssion
+
+the Document level security that is below:
 
 
 {
