@@ -19,10 +19,10 @@ Configure an Opendistro Role to give access to alerts to agents with that label.
 Management >> Security:
 
 
-And then create a role (in my example it is read_server_A) with indices_all, read and kibana_all_read as Cluster permissions:
+And then create a role (in my example it is read_server_A) with  Cluster permissions --> indices_all, read, kibana_all_read 
 
 
-And read Index permissions for wazuh* indices, with read permssion
+And read Index permissions for index --> wazuh*  --> read 
 
 the Document level security that is below:
 
